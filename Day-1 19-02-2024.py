@@ -1,12 +1,12 @@
 #problem 1
-'''a = int(input())
+a = int(input())
 b = int(input())
 if a > b:
     print(a)
 else:
-    print(b)'''
+    print(b)
 #problem2 
-'''a = int(input())
+a = int(input())
 b = int(input())
 c = int(input())
 if a>b and a>c:
@@ -14,18 +14,18 @@ if a>b and a>c:
 elif b>c:
     print(b)
 else:
-    print(c)'''
+    print(c)
 
 # problem 3
-'''a = int(input())
+a = int(input())
 b = int(input())
 if a > b:
     print(b)
 else:
-    print(a)'''
+    print(a)
 
 #problem 4
-'''a = int(input())
+a = int(input())
 b = int(input())
 c = int(input())
 if a>b and a>c:
@@ -39,24 +39,24 @@ if a>b and a>c:
 elif b>c:
     print(b)
 else:
-    print(c)'''
+    print(c)
 
 
 #problem 5
-'''for i in range(1000):
-    print("Hello World")'''
+for i in range(1000):
+    print("Hello World")
 
 #problem 6
-'''a,b = map(int,input().split())
+a,b = map(int,input().split())
 if a==b:
     print("a == b")
 elif a>b:
     print("a > b")
 else:
-    print("a < b")'''
+    print("a < b")
 
 #problem 7
-'''n = int(input())
+n = int(input())
 if n > 0:
     res=0
     while n > 0:
@@ -74,17 +74,17 @@ else:
         res = (res*10)+r
         n = n//10
     print(-1*res)
-'''
+
 #problem 8
-'''#Approach - 1
+#Approach - 1
 
 w = int(input())
 if w>2 and w%2==0:
     print("Yes")
 else:
     print("No")
-'''
-'''#Approach - 2
+
+#Approach - 2
 
 w = int(input())
 if w%2==0:
@@ -94,9 +94,9 @@ if w%2==0:
         print("No")
 else:
     print("No")
-'''
+
 #problem 9
-'''#Appraoch - 1
+#Appraoch - 1
 
 t = int(input())
 for i in range(t):
@@ -105,8 +105,8 @@ for i in range(t):
         print("Yes")
     else:
         print("No")
-'''
-'''#Approach - 2
+
+#Approach - 2
 
 t = int(input())
 while t > 0:
@@ -116,17 +116,17 @@ while t > 0:
     else:
         print("No")
     t = t - 1
-'''
+
 
 #problem 10
-'''
+
 t = int(input())
 for i in range(t):
     n = int(input())
-    print(100-n)'''
+    print(100-n)
 
 #problem 11
-'''t = int(input())
+t = int(input())
 for i in range(t):
     a,b,c,d = map(int,input().split())
     if a-c > b-d:
@@ -134,7 +134,7 @@ for i in range(t):
     elif a-c < b-d:
         print("First")
     else:
-        print("Any")'''
+        print("Any")
 
 #problem 12
 '''t = int(input())
