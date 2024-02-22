@@ -1,0 +1,127 @@
+#problem-1
+'''s={"we promtly judged antique ivory for the next prize"}
+for i in range():
+    print(s[i])
+    if s[i]==i:
+        print("pangram")
+else:
+    print("not pangram")'''
+'''
+#approach-2
+s= input()
+s1=set(s)
+if len(s1)==27:
+    print("pangram")
+else:
+    print("not a pangram")'''
+#approach-2  with dict
+'''alpha='a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'
+s=input()
+d={}
+for i in s:
+    if i in alpha:
+        if i not in d:
+            d[i]=1
+        else:
+            d[i]+=1
+x=d.keys()
+print(d)
+if len(x)==26:
+    print("panagram")
+else:
+    print("not a panagram")'''
+
+#problem-2 find first repeating characters 
+#approach-1
+'''s={'g':1,'a':2,'y':1,'t':1,'r':1,'i':1}
+r=input()
+len(s)
+c=0
+for i in s:
+    if s[i]>=2:
+        c==c+1
+        print(len[s]==r)
+        print(r)'''
+
+#problem-3 dict and map
+#approach-1
+'''n=intput()
+d={}
+for i in range(n):
+    name,num=input().split()
+    d[name]=num
+while true:
+    s=input()
+    if s in d:
+        '''
+#problem-4
+#approach-1
+'''n=int(input())
+d={}
+for i in range(n):
+    s=input()
+    if s in d:
+        d[s]=d[s]+1
+    else:
+        d[s]=1
+#print(d)
+x=max(d.values())
+z=[]
+for i in d:
+    if d[i]==x:
+        z.append(i)
+print(max(z),x)
+'''
+#problem -5
+#approach-1
+'''t=int(input())
+for i in range(t):
+    n,r=map(int,input().split())
+    d={}
+    for j in range(r):
+        sid,cid=map(int,input().split())
+        if cid not in d:
+            d[cid] =[sid]
+        else:
+            d[cid].append(sid)
+    print(d)
+    for j in d:
+        if len(d[j])>n and len(set(d[j]==len(d[j]))):
+            print(f"Scenario #{i+1} : Impossible")
+            break
+    else:
+        print(f"Scenerio #{i+1} : Possible")
+
+'''
+#problem-6 graphs 
+'''n=int(input())
+route={}
+for i in range(n):
+    c1,c2=input().split()
+    if c1 not in route:
+        route[c1]=[c2]
+    else:
+        route[c1].append(c2)
+print(route)
+city=input()
+if city in route:
+    print(*route[city],sep=" ")
+else:
+    print("None")'''
+
+#problem-7
+n=int(input())
+d={}
+for i in range(n):
+    a,b=input().split()
+    l=[]
+    if a in d:
+        d[a].append(b)
+    else:
+        d[a]=[b]
+print(d)
+q=input()
+if q in d:
+    print(d[q])
+else:
+    print("none")
